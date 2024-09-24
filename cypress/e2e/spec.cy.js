@@ -1,3 +1,5 @@
+// Not loaded while using Cucumber preprocessor
+
 describe('User flow for unauthenticated users', () => {
     it('loads home page with login link when not logged in', () => {
         cy.visit('/');
